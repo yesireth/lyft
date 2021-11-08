@@ -22,6 +22,9 @@ estructura de carpetas y archivos donde colocarás tu código.
    git clone https://github.com/<nombre-de-usuario>/lyft.git
    ```
 
+
+[profile-pic-3.png](https://postimg.cc/Jsqg3n7L)
+
 ## Objetivo
 
 El reto consiste en replicar el sitio de **Lyft**, este será el resultado

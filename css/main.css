@@ -1,3 +1,143 @@
-/*
- * Estilos de tu proyecto
- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+*{
+box-sizing: border-box;
+margin: 0;
+}
+body{
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position:absolute;
+    width: 100%;
+    height: 100px;
+}
+.logo-white{
+    width: 100px;
+ 
+}
+main{
+    background-image:linear-gradient(#76278F, #2B1E66);
+}
+.container-nav{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 24px;
+    list-style: none ;
+    color: white;
+    padding: 0;
+}
+.background{
+    width:100%;
+    height: 100%;
+  
+}
+li{
+    cursor: pointer;
+    border: 2px solid none;
+    border-radius: 4px;
+    padding: 10px;
+}
+li:hover{
+    border: 2px solid white;   
+}
+.container{
+    display: flex;
+    justify-content: flex-end;
+}
+.container-info{
+    padding: 50px;
+    position: absolute;
+    bottom: 100px;
+    width: 600px;
+    height: 400px;
+    background-color: white;
+}
+.container-info h1{
+    line-height: 50px;
+    color:#352384;
+    font-size: 50px;
+}
+.txt-subtitulo{
+    color:#352384;
+    font-size: 20px;
+}
+.container-info input{
+    border: none;
+    border-bottom: 3px solid #352384 ;
+    font-size: 18px;
+    margin-top: 10px;
+    outline: none;
+}
+.btn-beecome{
+padding : 10px 0;
+}
+.container-info button{
+    padding: 20px;
+    background: #f709af ;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+.txt{
+    font-size: 15px;
+}
+btn-beecome a{
+    padding-left: 20px;
+}
+
+p{
+    line-height: 20px;
+}
+.container-phone{
+    padding: 50px;
+    position: relative;
+    width: 600px;
+    height: 500px;
+    color: white;
+}
+.abejita{
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+    align-items: center;
+}
+.abejita img{
+ width: 500px;
+ height: 400px;
+}
+.abejita-1{
+ display: flex;
+ justify-content: space-between;
+}
+.abejita-1 div{
+    background: white;
+    width: 700px;
+    padding: 50px;
+}
+.abejita-1 iframe{
+    width: 700px;
+    height: 400px;
+}
+.abejita-2{
+ display: flex;
+ justify-content: space-between;
+}
+.abejita-2 iframe{
+    width: 700px;
+    height: 400px;
+}
+.abejita-2 div{
+    background: white;
+    width: 700px;
+    padding: 50px;
+}
+footer{
+    background: gray;
+}
